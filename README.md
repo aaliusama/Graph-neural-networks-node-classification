@@ -8,7 +8,7 @@ Graph neural networks have emerged as a powerful tool for learning on relational
 
 Using a unified 3-layer Graph Convolutional Network architecture, I systematically evaluated each approach on 7,650 products connected by 238,162 co-purchasing relationships. The results reveal important insights about the balance between model expressiveness and generalization capability.
 
-**Key Finding:** Identity-based features (one-hot encoding) achieved 92.68% test accuracy but cannot generalize to new products, while fully generalizable features reached 87.98% accuracy—a 4.7 percentage point gap that represents the fundamental cost of inductive learning in graph neural networks.
+**Key Finding:** Identity-based features (one-hot encoding) achieved 92.68% test accuracy but cannot generalize to new products, while fully generalizable features reached 87.98% accuracy: a 4.7 percentage point gap that represents the fundamental cost of inductive learning in graph neural networks.
 
 ## Why Graph Neural Networks?
 
