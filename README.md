@@ -445,33 +445,8 @@ The dataset is relatively clean - most co-purchases are category-consistent. The
 
 **When GAT Would Win Bigger**: Datasets with more noise (fraud networks, social media, recommendation graphs) would show larger attention benefits.
 
----
 
-## Business Value Demonstration
 
-### ROI Calculation for E-Commerce
-
-**Scenario**: Online retailer with 100,000 products, 1,000 new products/month
-
-**Manual Classification Costs**:
-- Time: 5 min/product × 1,000 products = 83 hours/month
-- Labor: $50/hour × 83 hours = $4,150/month
-- Annual cost: **$49,800**
-
-**GNN Classification**:
-- Training: One-time 2 hours ($100)
-- Inference: Automated, <1 minute for 1,000 products
-- Maintenance: 2 hours/month ($100/month = $1,200/year)
-- Annual cost: **$1,300**
-
-**Savings**: $48,500/year (97% cost reduction)
-
-**Additional Benefits**:
-- Zero delay: Products go live immediately
-- Consistency: No human classification errors
-- Scalability: Handles 10× product growth with same infrastructure
-
----
 
 ## Repository Structure
 
